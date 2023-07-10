@@ -1,5 +1,5 @@
 {
-  "name": "sanity-country-state-select",
+  "name": "sanity-plugin-country-state-select",
   "version": "1.0.0",
   "description": "A sanity plugin to generate custom field for countries and states in the ISO 3166 standard.",
   "keywords": [
