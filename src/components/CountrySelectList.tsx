@@ -9,9 +9,10 @@ import {CountryListOption, CountrySelectListProps} from './countrySelectList.typ
 export const CountrySelectList = (props: CountrySelectListProps) => {
   const {onChange, schemaType: type, readOnly, value} = props
   //@ts-ignore
-  const {sn_ct_st} = value
-  const [currentCountry, setCurrentCountry] = useState<any>(sn_ct_st.selected_country || {})
-  const [currentState, setCurrentState] = useState<string>(sn_ct_st.selected_state.name)
+  const {sn_ct_st} = value || {}
+
+  const [currentCountry, setCurrentCountry] = useState<any>(sn_ct_st?.selected_country || {})
+  const [currentState, setCurrentState] = useState<string>(sn_ct_st?.selected_state?.name)
   const {options} = type
 
   //@ts-ignore

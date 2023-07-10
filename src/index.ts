@@ -5,7 +5,7 @@ interface MyPluginConfig {
   /* nothing here yet */
 }
 
-export const myPlugin = definePlugin<MyPluginConfig | void>((config = {}) => {
+export const countryStateListPlugin = definePlugin<MyPluginConfig | void>((config = {}) => {
   // eslint-disable-next-line no-console
   console.log('hello from sanity-country-state-select')
   return {
