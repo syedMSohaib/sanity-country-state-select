@@ -15,7 +15,7 @@ A sanity plugin to generate custom field for countries and states in the ISO 316
 ## Installation
 
 ```sh
-npm install sanity-country-state-select
+npm i sanity-plugin-country-state-select
 ```
 
 ## Usage
