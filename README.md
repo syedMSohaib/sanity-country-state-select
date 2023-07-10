@@ -1,5 +1,3 @@
-# sanity-plugin-sanity-country-state-select
-
 # sanity-country-state-select
 
 > This is a **Sanity Studio v3** plugin.
