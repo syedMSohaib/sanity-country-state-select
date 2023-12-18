@@ -1,11 +1,11 @@
-import {definePlugin} from 'sanity'
+import {definePlugin, castFromTyped} from '@sanity-typed/types'
 import {schema} from './schemas'
 
 interface MyPluginConfig {
   /* nothing here yet */
 }
 
-export const countryStateListPlugin = definePlugin<MyPluginConfig | void>((config = {}) => {
+export const countryStateListPluginTyped = definePlugin((config: MyPluginConfig | void) => {
   // eslint-disable-next-line no-console
   console.log('hello from sanity-country-state-select')
   return {
@@ -15,3 +15,5 @@ export const countryStateListPlugin = definePlugin<MyPluginConfig | void>((confi
     },
   }
 })
+
+export const countryStateListPlugin = castFromTyped(countryStateListPluginTyped)

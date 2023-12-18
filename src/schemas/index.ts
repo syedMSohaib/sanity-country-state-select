@@ -1,11 +1,11 @@
-import {defineType, ObjectDefinition} from 'sanity'
+import {defineType, ObjectDefinition} from '@sanity-typed/types'
 import {CountryListOption} from '../components/countrySelectList.type'
 import {CountrySelectList} from '../components/CountrySelectList'
 
 const countryType = 'countrieslist' as const
 
 export interface CountryListTypeDefinition
-  extends Omit<ObjectDefinition, 'type' | 'fields' | 'options'> {
+  extends Omit<ObjectDefinition<any, any>, 'type' | 'fields' | 'options'> {
   type: typeof countryType
   options?: CountryListOption
 }

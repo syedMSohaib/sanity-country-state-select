@@ -42,6 +42,7 @@
     "url": "git+https://github.com/syedMSohaib/sanity-country-state-select.git"
   },
   "dependencies": {
+    "@sanity-typed/types": "^6.1.2",
     "@sanity/incompatible-plugin": "^1.0.4"
   },
   "devDependencies": {

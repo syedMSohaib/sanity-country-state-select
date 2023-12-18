@@ -1745,6 +1745,13 @@
     colors "~1.2.1"
     string-argv "~0.3.1"
 
+"@sanity-typed/types@^6.1.2":
+  version "6.1.2"
+  resolved "https://registry.yarnpkg.com/@sanity-typed/types/-/types-6.1.2.tgz#001a6c1a60ef105d8b50b57a556b662f333ab56a"
+  integrity sha512-VexAiYi54v9c8kcwHCmgEARuuVR8eJecGw5LkcC6AdnKJqnzUZ4i5uzph4PQGt6asPJh9CV7muihmvPjp73mGQ==
+  dependencies:
+    type-fest "4.8.3"
+
 "@sanity/asset-utils@^1.2.5":
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/@sanity/asset-utils/-/asset-utils-1.3.0.tgz#6460cd993a2c24368a6308028f3bc57df91f131e"
@@ -7563,6 +7570,11 @@ type-check@^0.4.0, type-check@~0.4.0:
   integrity sha512-XleUoc9uwGXqjWwXaUTZAmzMcFZ5858QA2vvx1Ur5xIcixXIP+8LnFDgRplU30us6teqdlskFfu+ae4K79Ooew==
   dependencies:
     prelude-ls "^1.2.1"
+
+type-fest@4.8.3:
+  version "4.8.3"
+  resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-4.8.3.tgz#6db08d9f44d596cd953f83020c7c56310c368d1c"
+  integrity sha512-//BaTm14Q/gHBn09xlnKNqfI8t6bmdzx2DXYfPBNofN0WUybCEUDcbCWcTa0oF09lzLjZgPphXAsvRiMK0V6Bw==
 
 type-fest@^0.18.0:
   version "0.18.1"
