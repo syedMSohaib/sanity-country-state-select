@@ -1,4 +1,4 @@
-# sanity-country-state-select
+# sanity-plugin-country-state-select
 
 > This is a **Sanity Studio v3** plugin.
 
@@ -23,7 +23,7 @@ npm i sanity-plugin-country-state-select
 Add it as a plugin in `sanity.config.ts` (or .js):
 
 ```js
-import {countryStateListPlugin} from 'sanity-country-state-select'
+import {countryStateListPlugin} from 'sanity-plugin-country-state-select'
 
 export default defineConfig({
   // ...

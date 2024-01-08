@@ -7,9 +7,9 @@ interface MyPluginConfig {
 
 export const countryStateListPluginTyped = definePlugin((config: MyPluginConfig | void) => {
   // eslint-disable-next-line no-console
-  console.log('hello from sanity-country-state-select')
+  console.log('hello from sanity-plugin-country-state-select')
   return {
-    name: 'sanity-country-state-select',
+    name: 'sanity-plugin-country-state-select',
     schema: {
       types: [schema],
     },
